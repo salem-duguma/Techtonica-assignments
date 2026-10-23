@@ -1,0 +1,34 @@
+
+            .top{
+                background-color: bisque;
+                padding: 25px;
+                color:black;
+                text-align: center;
+                border-radius: 8px;
+                margin-bottom: 25px;
+            }
+            .recipe-layout{
+                display:grid;
+                grid-template-columns: 1fr 1.5fr;
+                gap: 25px;
+                align-items:start;
+                
+            }
+            .left{
+                background-color: #f5f0e8;
+                padding: 20px;
+                color: black;
+                border-radius: 8px;
+                min-width: 0;  
+            }
+            .left img{
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            body {
+                margin: 20px;
+                font-family: arial, sans-serif;
+                line-height: 1.6;
+            }
+        
