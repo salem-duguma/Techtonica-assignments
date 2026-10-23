@@ -1,11 +1,15 @@
 
             .top{
-                background-color: bisque;
-                padding: 25px;
-                color:black;
+                background-color: #EAD8C0;
+                padding: 30px;
+                color:#493326;
                 text-align: center;
-                border-radius: 8px;
+                border-radius: 12px;
                 margin-bottom: 25px;
+            }
+            .top h1{
+                font-family: Georgia, 'Times New Roman', serif;
+                font-size: 2.2rem;
             }
             .recipe-layout{
                 display:grid;
@@ -15,20 +19,42 @@
                 
             }
             .left{
-                background-color: #f5f0e8;
-                padding: 20px;
-                color: black;
-                border-radius: 8px;
+                background-color: #e8f0e5;
+                padding: 22px;
+                color: #365340;
+                border-radius: 12px;
                 min-width: 0;  
             }
             .left img{
                 width: 100%;
                 height: auto;
                 display: block;
+                border-radius: 8px;
+            }
+            a {
+                color: #79552F;
+            }
+            a:hover{
+                color: #493326;
+            }
+            .right{
+                background-color: #FFFFFF;
+                padding: 25PX;
+                color: #493326;
+                border-radius: 12PX;
+                min-width: 0;
+                box-shadow: 0 3px 12px rgba(73, 51, 38, 0.08);
+            }
+            h2,
+            h3{
+                font-family: Georgia, 'Times New Roman', serif;
+                color: # 745113B;
             }
             body {
                 margin: 20px;
-                font-family: arial, sans-serif;
-                line-height: 1.6;
+                font-family: "Trebuchet MS" arial, sans-serif;
+                line-height: 1.7;
+                background-color:  #FAF7F0;
+                color: #493326;
             }
         
