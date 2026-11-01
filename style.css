@@ -11,13 +11,11 @@
                 font-family: Georgia, 'Times New Roman', serif;
                 font-size: 2.2rem;
             }
-            .recipe-layout{
-                display:grid;
-                grid-template-columns: 1fr 1.5fr;
-                gap: 25px;
-                align-items:start;
-                
+            .recipe-layout {
+                 align-items: start;
             }
+                
+    
             .left{
                 background-color: #e8f0e5;
                 padding: 22px;
@@ -48,11 +46,11 @@
             h2,
             h3{
                 font-family: Georgia, 'Times New Roman', serif;
-                color: # 745113B;
+                color: # 74513B;
             }
             body {
                 margin: 20px;
-                font-family: "Trebuchet MS" arial, sans-serif;
+                font-family: "Trebuchet MS" Arial, sans-serif;
                 line-height: 1.7;
                 background-color:  #FAF7F0;
                 color: #493326;
