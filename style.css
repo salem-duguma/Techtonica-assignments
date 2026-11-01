@@ -55,4 +55,20 @@
                 background-color:  #FAF7F0;
                 color: #493326;
             }
-        
+            .navbar .navbar-brand {
+                color: #FFFFFF;
+                font-weight: bold;
+            }
+
+            .navbar .nav-link {
+                 color: #FFFFFF;
+                 font-weight: 500;
+            }
+
+            .navbar .nav-link:hover {
+                 color: #EAD8C0;
+            }
+
+            .navbar .nav-link.active {
+                  color: #EAD8C0;
+            }
