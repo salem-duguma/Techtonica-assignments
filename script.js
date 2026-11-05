@@ -7,4 +7,7 @@ ingredients.forEach(function(ingredient) {
   ingredientCheckbox.type = "checkbox";
 
   ingredient.prepend(ingredientCheckbox);
+  ingredientCheckbox.addEventListener("change", function() {
+    ingredient.classList.toggle("checked");
+  });
 });
