@@ -36,3 +36,13 @@ if (cookingTips.hidden === true) {
     toggleButton.textContent = "Show Cooking Tips";
  }
 });
+const changeColorButton = document.querySelector(
+    "#change-color-button"
+);
+changeColorButton.addEventListener("click", function() {
+    if (document.body.style.backgroundColor === "lightblue") {
+        document.body.style.backgroundColor = "";
+    } else {
+        document.body.style.backgroundColor = "lightblue";
+    }
+});
