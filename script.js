@@ -46,3 +46,15 @@ changeColorButton.addEventListener("click", function() {
         document.body.style.backgroundColor = "lightblue";
     }
 });
+const addNotesButton = document.querySelector("#add-notes-button");
+
+const notesContainer = document.querySelector("#notes-container");
+addNotesButton.addEventListener("click", function() {
+    if (notesContainer.children.length === 0) {
+        const notesTextArea = document.createElement("textarea");
+
+        notesTextArea.placeholder = "Write your cooking notes here...";
+
+        notesContainer.appendChild(notesTextArea);
+    }
+});
