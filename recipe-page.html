@@ -10,6 +10,7 @@
   rel="stylesheet"
 >
 <link rel="stylesheet" href="style.css">
+ <script src="script.js" defer></script>
         </head>
         <body>
             <div class="container-fluid">
@@ -68,6 +69,9 @@
             <span class="badge text-bg-info">
             Easy Recipe
         </span>
+        <button id="change-color-button" type="button">
+    Change Background Color
+</button>
           <p>
     My Favorite and Delicious Lasagna is a special family favorite that brings everyone together around the dinner table. It’s the perfect meal for Friday nights, family dinners, or any day I feel like making something delicious for the people I love. For me, lasagna is more than just food; it’s about happiness, family time, and sharing a meal that everyone enjoys.
     </p> 
@@ -98,7 +102,8 @@
         </p>
 
         <h2>List of Ingredients</h2>
-<ul> <li>1 pound ground beef</li>
+    <p id="ingredient-counter">Ingredients remaining: 0</p>
+<ul id="ingredients-list"> <li>1 pound ground beef</li>
 <li>12 lasagna noodles</li>
 <li>1 jar (24 oz) pasta sauce</li>
 <li>1 can (15 oz) tomato sauce</li>
@@ -150,6 +155,28 @@
 <li>Uncover and finish baking: Remove the foil and bake for another 15–20 minutes, or until the cheese is melted, bubbly, and lightly golden.</li>
 <li>Let it rest: Remove the lasagna from the oven and let it rest for 10–15 minutes before cutting and serving. This helps the layers hold together.</li>
 </ol>
+<h2>Cooking Tips</h2>
+
+<button id="toggle-tips-button" type="button">
+
+    Show Cooking Tips
+</button>
+
+<div id="cooking-tips" hidden>  
+
+    <ul>
+        <li>Use fresh ingredients for better flavor.</li>
+        <li>Let the lasagna rest before cutting.</li>
+        <li>Cover with foil while baking.</li>
+    </ul>
+</div>
+ <h2>My Cooking Notes</h2>
+
+<button id="add-notes-button" type="button">
+    Add Notes
+</button>
+<div id="notes-container"></div>
+
 <h3 id="recipes">Explore More Recipes</h3>
 <p>Want to try another delicious lasagna recipe?</p>
 <ul>
