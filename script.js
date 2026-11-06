@@ -25,3 +25,14 @@ ingredientCounter.textContent =
   `Ingredients remaining: ${remainingIngredients}`;
 }
 updateIngredientCounter();
+const toggleButton = document.querySelector("#toggle-tips-button");
+const cookingTips = document.querySelector("#cooking-tips");
+toggleButton.addEventListener("click", function() {
+if (cookingTips.hidden === true) {
+    cookingTips.hidden = false;
+    toggleButton.textContent = "Hide Cooking Tips";
+ } else {
+    cookingTips.hidden = true;
+    toggleButton.textContent = "Show Cooking Tips";
+ }
+});
